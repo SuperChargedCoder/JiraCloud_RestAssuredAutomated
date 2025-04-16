@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-16T23:05:13 IST" name="Default suite" finished-at="2025-04-16T23:05:20 IST" duration-ms="7052">
+    <groups>
+    </groups>
+    <test started-at="2025-04-16T23:05:13 IST" name="Default test" finished-at="2025-04-16T23:05:20 IST" duration-ms="7052">
+      <class name="com.JIRA_Cloud.IssueCreationAPI">
+        <test-method signature="CreateIssue()[pri:1, instance:com.JIRA_Cloud.IssueCreationAPI@703580bf]" started-at="2025-04-16T23:05:13 IST" name="CreateIssue" finished-at="2025-04-16T23:05:16 IST" duration-ms="3049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateIssue -->
+        <test-method signature="AddAttachmentToIssue()[pri:2, instance:com.JIRA_Cloud.IssueCreationAPI@703580bf]" started-at="2025-04-16T23:05:16 IST" name="AddAttachmentToIssue" finished-at="2025-04-16T23:05:20 IST" depends-on-methods="com.JIRA_Cloud.IssueCreationAPI.CreateIssue" duration-ms="3970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAttachmentToIssue -->
+      </class> <!-- com.JIRA_Cloud.IssueCreationAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
